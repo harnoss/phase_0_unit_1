@@ -1,5 +1,7 @@
 ## 8. [Comparing Favorite Websites](8_technical_blog/readme.md) Reflection
 
-Blog url: <!-- Blog URL here (remove comment)  -->
+Blog url: harnoss.github.io/unit1_projects/week1_technical_blog.html
 
 Reflect on the process of researching and writing a blog post. It doesn't have to be long. Did you enjoy this? Did you get comments or views? Did you find the blog helpful to your learning? Did you find it cumbersome? Which parts did you feel best about and which did you feel less certain about?
+
+This was definately fun. My blog itself though is still super simple and doesn't look very well, so I will want to dive into that more and see how to integrate comment functionalities as well. To be honest, I have never ever written a blog post before so in some way, I have been feeling the power of the web for the first time first hand (you can do and post and say whatever you want). Technically, I spent a lot of time on floating and positioning the (still simple) elements of the blog, so there was great learning there. Fortunately, I could use my paring session today pretty well to dive into that. We invented the challenge to create a chess board through html/CSS. Sounds simple, but it wasn't. We ended up with the Windows logo (two times two, blue, red, yellow, green)...I still don't feel a 100% certain about how to use relative vs. absolute positioning as well as floating. I will spend some extra time on this going forward.
