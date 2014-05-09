@@ -15,38 +15,66 @@ var terah = {
 /* Pseudocode Section - write pseudocode for each challenge below.
 1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
+=> SET variable adam to an empty object
 
 2. Give adam a name property with the value "Adam".
+=> SET name property of var adam to "Adam"
 
 3. Add a spouse property to terah and assign it the value of adam.
+=> SET spouse property of var terah to value of adam
 
 4. Change the value of the terah weight property to 125.
+=> SET weight property of var terah to 125
 
 5. Remove the eyeColor property from terah.
+=> DELETE eyeColor propoerty from var terah
 
 6. Add a spouse property to adam and assign it the value of terah.
+=> SET spouse property of var adam to value of terah
 
 7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
+=> SET children property of terah to empty object
 
 8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
+=> SET new property "Carson" to object with property name of "Carson" and ADD to children property of var terah
 
 9. Add a carter property to the value of the terah children property and assign it 
    the value of an object with the property name with a value of "Carter".
+=> SET new property "Carter" to object with property name of "Carter" and ADD to children property of var terah
 
 10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
+=> SET new property "Colton" to object with property name of "Colton" and ADD to children property of var terah
 
 11. Add a children property to adam and assign it the value of terah children.
-
+=> SET children property of var adam to children property of terah
 
 */
 
 // __________________________________________
 // Write your code below.
+var terah = {
+  name: "Terah",
+  age: 32,
+  height: 66,
+  weight: 130,
+  hairColor: "brown",
+  eyeColor: "brown"
+}
 
-
+var adam = {};
+adam.name = "Adam";
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+terah.children = {};
+terah.children.carson = {name: "Carson"};
+terah.children.carter = {name: "Carter"};
+terah.children.colton = {name: "Colton"};
+adam.children = terah.children;
 
 
 
@@ -55,12 +83,12 @@ var terah = {
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
-// 
+// I started with the constructor notation (var adam = new Object()), but then realized that I had to switch
+// to literal notation. What really helped me was to create a small diagram on a piece
+// of paper to draw a "tree"-like structure of the two objects. Definately a very good
+// learning! Apart from that, it seemed all manageable and fun to do. I am not sure if
+// my pseudo code is good (I feel it's not) and will now look for how to write pseudo code
+// specifically for js objects.
 
 
 // __________________________________________
